@@ -1,0 +1,83 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  /* display: flex; */
+  /* -ms-flex-align: center;
+  align-items: center; */
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.main-container {
+  width: 100%;
+  max-width: 330px;
+  padding: 40px 4px;
+  padding-top: 0;
+  margin: auto;
+  background-color: #fff;
+}
+
+.main-heading {
+  background-color: #77d8d8;
+  width: 100%
+}
+
+.report-content {
+  margin-top: 40px;
+}
+
+.today-date {
+  color: #679b9b;
+}
+
+.city {
+  color: #aacfcf;
+}
+
+.temp {
+  font-size: 1.5em;
+  font-weight: bolder;
+  color: #679b9b;
+}
+
+.weather-desc {
+  color: #fff;
+  font-family: 'Leckerli One', cursive;
+  font-weight: 200;
+  background-color: #f4a548;
+  margin-top: 25px;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 200;
+}
+
+.form-signup {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signup .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-signup .form-control:focus {
+  z-index: 2;
+}
+
+h2.border {
+  display: inline-block;
+}
+
+.container-fluid {
+  text-align: center;
+}
